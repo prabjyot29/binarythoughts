@@ -1,48 +1,39 @@
 ---
 layout: post
-title:  "Powerful things you can do with the Markdown editor"
-author: jane
-categories: [ Jekyll, tutorial ]
+title:  "Understanding Risks"
+author: prabjyot
+categories: [ Decision, Personal ]
 image: https://images.unsplash.com/photo-1528784351875-d797d86873a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80
-tags: [summer]
+tags: [risks, decisions, personal]
 ---
-There are lots of powerful things you can do with the Markdown editor. If you've gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!
-
-As with the last post about the editor, you'll want to be actually editing this post as you read it so that you can see all the Markdown code we're using.
+We don't really understand risks. Schools, Peers, Family teaches us how to either avoid risk or minimize risk. But, I would argue that one of the most important thing that a child could learn is taking the right risks.
 
 
-## Special formatting
+## 1. Kelly Criterion
+We make our decisions based on risk, risk is evaluated based on the probability of success. Based is probability of success enough?
 
-As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:
+Kelly Criterion is a concept which states that along with the probability of success, there is one more important concept called the multipler
 
-+ ~~strike through~~
-+ ==highlight==
-+ \*escaped characters\*
+The multipler is basically how much you win/succedd if you succedd and the same for failing. You don't want to play safe all your life. The right balance between the multipler and probability of success is what we need to learn
 
+## 2. Assymetric Risk
+There are two types of risks we can take:
+1. Asymmetric Risks
+2. Symmetric Risks
 
-## Writing code blocks
+Symmetric Risks are the ones where the the upside and the downside are almost same
+In Asymmetric Risks, the upside is much greater than the downside
 
-There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, `like this`. Larger snippets of code can be displayed across multiple lines using triple back ticks:
+Examples of Asymmetric Oppurtunities: (Source: Naval)
+1. Invest in startups
+2. Start a company
+3. Create a book, podcast, video
+4. Create a (software) product
+5. Go on many first dates
+6. Go to a cocktail party
+7. Read a Lindy book
+8. Move to a big city
+9. Buy Bitcoin
+10. Tweet
+11. Learning how to Code
 
-```
-.my-link {
-    text-decoration: underline;
-}
-```
-
-If you want to get really fancy, you can even add syntax highlighting using Rouge.
-
-
-![walking]({{ site.baseurl }}/assets/images/8.jpg)
-
-## Reference lists
-
-The quick brown jumped over the lazy.
-
-Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference.
-
-## Full HTML
-
-Perhaps the best part of Markdown is that you're never limited to just Markdown. You can write HTML directly in the Markdown editor and it will just work as HTML usually does. No limits! Here's a standard YouTube embed code as an example:
-
-<p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
